@@ -2,6 +2,7 @@
     margin: 5px;
     text-decoration: none;
 }
+
 .body-contain{
     padding-left: 200px;
     padding-right: 200px;
@@ -17,6 +18,8 @@
     background-attachment: fixed;
     background-size: 100%;
 }
+
+
 
 .header-contain{
     display: grid;
@@ -40,6 +43,9 @@
 
 }
 
+/*
+de acá hacia arriba es el header
+*/
 
 
 .Main-contain{
@@ -101,13 +107,14 @@
 
 }
 
-.div-1{
-    background-color: khaki;
-}
-
 .texto-central{
     background-color: lightcoral;
 }
+
+
+/*
+De acá para arriba es el main -container 
+*/
 
 .div-articulos-contain{
     display: grid;
@@ -140,4 +147,6 @@
     background-color: darkgreen;
     grid-column: span 4;
 }
-
+/*
+De aca hacia arriba es la parte articulos
+*/
