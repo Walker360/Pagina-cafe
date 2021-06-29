@@ -21,17 +21,22 @@
 .header-contain{
     display: grid;
     background-color: rgba(0, 0, 0, 0.644);
-    color: white;
+  
+    
 }
 
 .nav-contain{
     display: grid;
     grid-template-columns: repeat(4,2fr);
     text-align: center;
+    border: rgb(255, 1, 1) 4px solid;
 }
 
 .color-a{
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    text-decoration: underline red;
+    font-size: 25px;
 
 }
 
@@ -77,13 +82,12 @@
 
 .section-3 p{
     grid-column: 1 / span 3;
-    text-align: left;
+    text-align: center;
     font-size: 25px;
 }
 
 
 .section-contain3 .div-imagen{
-   background-color: rgba(238, 17, 17, 0.986);
    justify-content: center;
 
 }
@@ -105,32 +109,32 @@
     background-color: lightcoral;
 }
 
-.div-articulos{
+.div-articulos-contain{
     display: grid;
-    background-color: rgb(250, 135, 135);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, 1fr);
 }
 
 
 .articulo1, .articulo2, .articulo3, .articulo4  {
-    background-color: lightsalmon;
+    background-color: rgba(0, 0, 0, 0.644);
     grid-row: span 7 ;
 }
-/*
-.articulo2{
-    background-color: lightsalmon;
-    grid-row: span 1 ;
+.div-articulos{
+    color: white
 }
-.articulo3{
-    background-color: lightsalmon;
-    grid-row: span 1 ;
+
+.div-articulos h1{
+    text-decoration: underline red 3px;
+
 }
-.articulo4{
-    background-color: lightsalmon;
-    grid-row: span 1 ;
+
+.img-img{
+    width: 700px;
+    height: 300px;
+    max-height: 100%;
+    max-width: 100%;
 }
-*/
 
 .footer{
     background-color: darkgreen;
