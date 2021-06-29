@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Linotte
+Author: Joel Carrouche
+Url: http://www.fontsquirrel.com/fonts/linotte
+
+Font: TrashHand
+Author: Luce Avérous
+Url: http://www.fontsquirrel.com/fonts/trashhand
