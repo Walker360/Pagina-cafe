@@ -1,0 +1,90 @@
+*{
+    margin: 5px;
+    text-decoration: none;
+    
+}
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    max-width: 100%;
+    min-width:30%;
+    max-height: 100%;
+    min-height: 30%;
+    width:auto ;
+    height: max-content;
+    display: grid;
+    background-image: url(/imagenes/2621231.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-contain{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.897);
+  
+}
+
+.nav-contain{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    text-align: center;
+    border: rgb(255, 1, 1) 4px solid;
+}
+
+.color-a{
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-decoration: underline red;
+    font-size: 25px;
+
+}
+
+
+
+.main-container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.articles-1{
+    background-color: indianred;
+    grid-column: 3 span;
+
+    display: grid;
+    grid-template-areas:
+    "lista lista iconos "
+}
+
+
+.articles-2{
+    background-color:khaki ;
+    grid-column: 3 span;
+
+    display: grid;
+    grid-template-areas:
+    "lista lista iconos "
+}
+.articles-3{
+    background-color:rgb(140, 240, 157) ;
+    grid-column: 3 span;
+
+    display: grid;
+    grid-template-areas:
+    "lista lista iconos "
+}
+
+.div-iconos{
+    grid-area: icono;
+    display: flex;
+    justify-content: flex-end;
+}
+.div-lista{
+    grid-area: lista;
+   
+}
+
+
+

@@ -1,6 +1,7 @@
 *{
     margin: 5px;
     text-decoration: none;
+    
 }
 
 .body-contain{
@@ -11,21 +12,22 @@
     max-height: 100%;
     min-height: 30%;
     width:auto ;
-    height: auto;
+    height: max-content;
     display: grid;
     background-image: url(/imagenes/2621231.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-size: 100%;
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
 
 .header-contain{
     display: grid;
-    background-color: rgba(0, 0, 0, 0.644);
+    background-color: rgba(0, 0, 0, 0.897);
   
-    
 }
 
 .nav-contain{
@@ -51,25 +53,43 @@ de acá hacia arriba es el header
 .Main-contain{
     
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 2fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     color: white;
 }
 
-.section-contain1{
-    background-color: green;
-    grid-column: span 3;
-   
-}
+
 
 .section-contain2{
-    background-color: hotpink; 
-    grid-row: span 4;
+    grid-column: 3;
+    background-color: rgba(0, 0, 0, 0.897);
+    grid-row: 3 span;
+    border: red 2px solid;
+    
+}
+
+.div-ul-1{
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.div-ul-2{
+    padding-top: 70px;
+    font-size: larger;
+}
+
+
+
+.container-ul h1{
+    text-decoration: underline red;
+   
 }
 .section-contain3{
-    background-color: rgba(0, 0, 0, 0.644);
-    grid-row: span 4;
-    grid-column: span 3;
+    background-color: rgba(0, 0, 0, 0.897);
+    grid-column: 1 /3   ;
+    grid-row: 1 / 6;
+    border: red 2px solid;
+    
     
 }
 
@@ -108,7 +128,7 @@ de acá hacia arriba es el header
 }
 
 .texto-central{
-    background-color: lightcoral;
+    background-color: rgb(128, 240, 133);
 }
 
 
@@ -116,37 +136,44 @@ de acá hacia arriba es el header
 De acá para arriba es el main -container 
 */
 
-.div-articulos-contain{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-}
-
-
-.articulo1, .articulo2, .articulo3, .articulo4  {
-    background-color: rgba(0, 0, 0, 0.644);
-    grid-row: span 7 ;
-}
-.div-articulos{
-    color: white
-}
-
-.div-articulos h1{
-    text-decoration: underline red 3px;
-
-}
-
-.img-img{
-    width: 700px;
-    height: 300px;
-    max-height: 100%;
-    max-width: 100%;
-}
-
 .footer{
-    background-color: darkgreen;
-    grid-column: span 4;
+    display: flex;
+    height: max-content;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.897);
+    justify-content: center;
+    place-items: center;
+    border: red 2px solid;
+    
+    
 }
+
+.a-footer{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.img-footer{
+    min-width: 20px;
+    max-width: 35px;
+    
+
+}
+
+
+
 /*
-De aca hacia arriba es la parte articulos
+De aca hacia arriba es la parte articulos... esta parte la movi a, menu
 */
+
+
+/*
+<section class="section-contain1">
+            <div class="texto-central">
+                       
+                <h1 class="h1-central">Titulo del articulo</h1>
+                <h3 class="subtitulo-central">Subtitulo del articulo</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus minima, tempore, sint nam qui libero modi at accusantium consequuntur officia ipsum, est earum voluptatem maxime. Nemo, illum id? Neque, eius.</p>
+                       
+            </div>
+        </section>*/
